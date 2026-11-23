@@ -11,5 +11,6 @@ def iniciar_programa():
             return
         menu.ejecutar(sesion)
 
+
 if __name__ == '__main__':
     iniciar_programa()
