@@ -11,6 +11,36 @@
             "rol": "admin"
         }
     ],
-    "pacientes": [],
-    "diagnosticos": []
+    "pacientes": [
+        {
+            "no. identificacion": "P001",
+            "nombre": "Carlos",
+            "apellido": "Marin",
+            "no. de telefono": "32541562",
+            "e-mail": "carlos@gmail.com",
+            "direccion": "Cra 25",
+            "genero": "Masculino",
+            "estado_civil": "Casado"
+        }
+    ],
+    "diagnosticos": [
+        {
+            "fecha": "13/11/2026",
+            "id_paciente": "0001",
+            "id_medico": "0001",
+            "sintomas": [
+                "fiebre",
+                "dolor de cabeza",
+                "tos"
+            ],
+            "diagnostico": "Gripe",
+            "prescripcion_medica": {
+                "Ibuprofeno": {
+                    "cantidad": 20,
+                    "dosis": 3,
+                    "dias": 7
+                }
+            }
+        }
+    ]
 }

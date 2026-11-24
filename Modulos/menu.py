@@ -2,6 +2,7 @@ from Modulos import login
 from Modulos import registro_paciente
 from Modulos import registro_diagnostico
 from Modulos import historia_clinica
+from Modulos import reporte_carga_medicos
 
 OPCIONES_ADMIN = {
     "1": ("Registrar usuario", login.sign_up),
@@ -13,6 +14,7 @@ OPCIONES_MEDICO = {
     "1": ("Registrar paciente", registro_paciente.solicitar_paciente),
     "2": ("Registrar diagnóstico", registro_diagnostico.solicitar_diagnostico),
     "3": ("Consultar historia clínica", historia_clinica.consultar_historia),
+    "4": ("Reporte carga médicos", reporte_carga_medicos.reporte)
 }
 
 OPCIONES_POR_ROL = {

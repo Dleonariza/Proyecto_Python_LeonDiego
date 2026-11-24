@@ -2,7 +2,6 @@ import json
 
 nom_arch = "Data/persistencia_de_datos.json"
 
-
 def estructura_vacia():
     return {
         "usuarios": [],
@@ -10,7 +9,6 @@ def estructura_vacia():
         "diagnosticos": [],
         "historias": []
     }
-
 
 def guardar_datos(datos: dict):
     try:
